@@ -6,9 +6,9 @@
  - callout(Exercise):
  Create three constants for items of different weights that you'd like to bring up to your fort: one less than 100, one between 100 and 1000, and one over 1000.
  */
-let a = 90
-let b = 110
-let c = 1100
+let apple = 90
+let banana = 110
+let cucumber = 1100
 /*:
  - callout(Exercise):
  A lightweight treehouse pulley is already created below. But you've decided that you want to be able to lift, say, a small horse or piano up to your fort, so you’re installing a second pulley with a much bigger basket.\
@@ -20,19 +20,19 @@ var pulley2 = TreehousePulley(weightCapacity: 2000)
 
 
 
-ricketyRope.canHandleAdditionalLoad(3*a)
+ricketyRope.canHandleAdditionalLoad(3*apple)
 
-ricketyRope.addLoadToBasket(loadWeight: 3*a)
+ricketyRope.addLoadToBasket(loadWeight: 3*apple)
 
-ricketyRope.canHandleAdditionalLoad(2*b)
+ricketyRope.canHandleAdditionalLoad(2*banana)
 
 
 
-pulley2.canHandleAdditionalLoad(2*b)
+pulley2.canHandleAdditionalLoad(2*banana)
 
-pulley2.addLoadToBasket(loadWeight: 2*b)
+pulley2.addLoadToBasket(loadWeight: 2*banana)
 
-pulley2.canHandleAdditionalLoad(c)
+pulley2.canHandleAdditionalLoad(cucumber)
 
 
 
@@ -40,6 +40,6 @@ var pulley3 = TreehousePulley(weightCapacity: 5000)
 
 
 
-pulley3.canHandleAdditionalLoad(c)
+pulley3.canHandleAdditionalLoad(cucumber)
 
-pulley3.addLoadToBasket(loadWeight: c)
+pulley3.addLoadToBasket(loadWeight: cucumber)

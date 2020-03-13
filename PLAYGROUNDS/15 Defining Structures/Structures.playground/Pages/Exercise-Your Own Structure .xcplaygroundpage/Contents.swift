@@ -6,9 +6,9 @@
  Think of another real-world object and its properties. Make up some actions or behaviors that the object might be able to perform. Write them all in plain English first in a comment:
  */
  // Add your English-language description of the type here. Make sure to add // before each line of your comment description.
- //
- //
- //
+ //cat: its size, colour and its napping time
+ //laptop: its size, processing power, appeal
+ //shirt: its colour, its size and its texture
 
 /*:
  - callout(Exercise):
@@ -16,7 +16,11 @@
  *Hint: If you made any properties with custom types, you can create placeholder types that have empty implementations. (See the TrainingShoe code at the bottom of this page for an example.) The placeholder type below will make sure your playground can run without errors.*
  */
 // Add your own struct here:
-
+struct car {
+    let size = Int()
+    var colour = String()
+    var accleration = Int()
+}
 
 
 
@@ -27,7 +31,7 @@
  Use the struct you created to make a new instance of your type.
 
  */
-
+let newSize = Int()
 
 /*:
  - note: Here's an example of a placeholder type used for making a TrainingShoe:

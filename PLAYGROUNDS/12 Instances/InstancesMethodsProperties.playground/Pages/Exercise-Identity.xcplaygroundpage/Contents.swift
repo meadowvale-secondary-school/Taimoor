@@ -10,11 +10,11 @@ Below the declaration of `friendPlans`, update `myPlans` by using the addition o
 Check the values of `myPlans` and `friendPlans`. Are they the same or different?
  */
 // Create your variables here:
-
-
+var myPlans = "watching youtube"
+var friendPlan = myPlans
 
 // Update `myPlans` here:
-
+myPlans += "sleeping"
 
 
 
@@ -24,8 +24,20 @@ Check the values of `myPlans` and `friendPlans`. Are they the same or different?
 Call the `addDance` function on `myPlans`, and assign the result to `friendPlans`.
  */
 // Define and call your function here:
-
-
+func addDance(phrase: String) {
+    if phrase == "and then we dance" {
+        print ("Great")
+    }
+    else if phrase == "but no dancing" {
+        print("You should love dancing")
+    }
+    else {
+        print("Try again")
+    }
+    
+}
+ addDance(phrase: myPlans)
+addDance(phrase: friendPlan)
 
 
 /*:
@@ -34,8 +46,8 @@ Call the `addDance` function on `myPlans`, and assign the result to `friendPlans
  Print both instances to to find out.
  */
 // Check your guess by printing here:
-
-
+print (myPlans)
+print (friendPlan )
 
 
 /*:

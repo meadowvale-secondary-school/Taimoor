@@ -13,6 +13,7 @@ struct Song {
     let title: String
     let artist: String
     let duration: Int
+    let formattedTitle: String
     
     var formattedDuration: String {
         let minutes = duration / 60
@@ -21,7 +22,7 @@ struct Song {
         return "\(minutes)m \(seconds)s"
     }
 }
-let song = Song(title: "No, no, no", artist: "Fizz", duration: 150)
+let song = Song(title: "No, no, no", artist: "Fizz", duration: 150, formattedTitle: "No, no, no by Fizz" )
 song.formattedDuration
 /*:
  You have already encountered a calculated property: the `count` of an `Array`.

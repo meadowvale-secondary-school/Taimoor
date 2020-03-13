@@ -5,7 +5,7 @@
  
  Instance methods are declared like functions, but you put them inside the body of the type definition:
 */
-struct Rectangle {
+struct Rectangle { 
     let width: Int
     let height: Int
     
@@ -28,7 +28,16 @@ otherRectangle.isBiggerThan(rectangle)
 
 //: - callout(Exercise): Simplify the `biggerThan` method by creating a calculated property named `area` for the rectangle struct and then using the calculated property inside the `isBiggerThan()` method.
 //:
+func isRectangle(rectangle: Rectangle, biggerThan rectangle2: Rectangle) -> Bool {
+    let areaOne = rectangle.height * rectangle.width
+    let areaTwo = otherRectangle.height * otherRectangle.width
+    return areaOne > areaTwo
+}
+//: Then you could use the function to compare two rectangles:
+let rectangle1 = Rectangle(width: 10, height: 10)
+let anotherRectangle = Rectangle(width: 10, height: 20)
 
+isRectangle(rectangle: rectangle1, biggerThan: anotherRectangle)
 
 
 

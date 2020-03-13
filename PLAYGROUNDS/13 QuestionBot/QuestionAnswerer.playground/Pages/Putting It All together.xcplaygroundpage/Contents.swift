@@ -3,7 +3,23 @@
  - callout(Exercise): In this final exercise you’ll combine the things you’ve learned over the last few pages. Update this `responseToQuestion` function so that it gives the answers specified below. It’s OK to go back and look and code from earlier pages.
 */
 func responseTo(question: String) -> String {
-    return "?"
+    let lowerQuestion = question.lowercased()
+    if lowerQuestion == "hello there" {
+        return "Why, hello there!"
+    }
+    else if lowerQuestion == "where should i go on holiday?" {
+        return "Syria!"
+    }
+    else if lowerQuestion == "where can i find the noth pole?"{
+        return "To the north!"
+    }
+    else if lowerQuestion == "where are the cookies?" {
+        return "In the cookie jar!"
+    }
+    else {
+        return "Sorry! I do not understand"
+    }
+    
 }
 //: 👇These answers should be “Why, hello there!”
 responseTo(question: "Hello there")
