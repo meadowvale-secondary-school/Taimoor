@@ -45,8 +45,17 @@ enum Suit {
         }
     }
     
-    func beats(_ otherSuit: Suit) -> Bool {
-        return self.rank > otherSuit.rank
+    func beats(_ otherSuit: Suit) -> String {
+        switch otherSuit {
+        case .spades:
+            return "♠️"
+        case .clubs:
+            return "♣️"
+        case .diamonds:
+            return "♦️"
+        case .hearts:
+            return "❤️"
+        }
     }
 }
 
