@@ -14,6 +14,8 @@ case .bad:
     print("That really won't do")
 case .poor:
     print("That's not good enough")
+case .good:
+    print("I will love to take it")
 default:
     print("OK, I'll take it")
 }
