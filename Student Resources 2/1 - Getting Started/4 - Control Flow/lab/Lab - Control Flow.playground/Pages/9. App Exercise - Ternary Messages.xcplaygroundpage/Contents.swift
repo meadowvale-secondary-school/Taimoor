@@ -14,7 +14,7 @@ if steps < stepGoal / 2 {
     print("Over halfway!")
 }
 
-
+let result = steps < stepGoal/2 ? "Almost halfway": "Over halfway"
 /*:
 
  _Copyright © 2018 Apple Inc._
