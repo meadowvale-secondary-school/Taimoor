@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AnimalSounds">
+   </FileRef>
+   <FileRef
+      location = "group:ColourMix">
+   </FileRef>
+   <FileRef
+      location = "group:ElementQuiz">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:simpleCenter">
+   </FileRef>
+   <FileRef
+      location = "group:Student Resources 2">
+   </FileRef>
+   <FileRef
       location = "group:PLAYGROUNDS">
    </FileRef>
 </Workspace>
