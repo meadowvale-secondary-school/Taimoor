@@ -24,14 +24,11 @@ let goal = 10000
 func progressUpdate () {
     if Double(steps) < 0.1 * Double(goal) {
         print ("You're off to a good start")
-        }
-    else if steps < goal/2 {
+    } else if steps < goal/2 {
         print("You're almost halfway there!")
-        }
-    else if Double(steps) < 0.9 * Double(goal) {
+    } else if Double(steps) < 0.9 * Double(goal) {
         print("You're over halfway there!")
-        }
-    else if steps < goal {
+    } else if steps < goal {
         print ("You're almost there!")
     } else {
         print("You beat your goal!")

@@ -41,5 +41,4 @@ func pacing(currentDistance:Double, totalDistance:Double, currentTime:Double, go
 }
 pacing(currentDistance: 5.2, totalDistance: 10.4, currentTime: 1.2, goalTime: 2.5)
 
-
 //: [Previous](@previous)  |  page 4 of 6  |  [Next: Exercise - Return Values](@next)

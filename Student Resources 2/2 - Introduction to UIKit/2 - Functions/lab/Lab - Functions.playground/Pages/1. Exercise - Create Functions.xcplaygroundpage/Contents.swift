@@ -29,7 +29,7 @@ func magicEightBall(){
     case 4:
         print("You came fourth")
     default:
-    print("Try again")
+        print("Try again")
     }
 }
 magicEightBall()
