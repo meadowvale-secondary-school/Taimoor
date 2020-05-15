@@ -28,4 +28,5 @@ let newBest = 15125
 let congratulations = "Congratulations \(fullName)! You beat your pervious daily high score of \(previousBest) steps by walking \(newBest) steps yesterday!"
 
 
+
 //: [Previous](@previous)  |  page 3 of 5  |  [Next: Exercise - String Equality and Comparison](@next)

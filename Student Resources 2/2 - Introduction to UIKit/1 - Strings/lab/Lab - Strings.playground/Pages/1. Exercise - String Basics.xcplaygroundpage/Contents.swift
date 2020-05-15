@@ -4,6 +4,10 @@
  Create a `name` constant and assign it a string literal representing your name.
  */
 
+
+let name = "Taimoor"
+
+
 let name = "Taimoor"
 
 
@@ -21,6 +25,7 @@ let name = "Taimoor"
 let favouriteQuote = "My favorite quote is Never give up"
 
 
+
 /*:
  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
  */
@@ -32,6 +37,7 @@ if emptyString == "" {
 else {
     print("It's not as empty as I thought")
 }
+
 
 
 
