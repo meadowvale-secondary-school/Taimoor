@@ -4,7 +4,12 @@
  Create a `name` constant and assign it a string literal representing your name.
  */
 
+
 let name = "Taimoor"
+
+
+let name = "Taimoor"
+
 
 /*:
  Create a `favoriteQuote` constant and assign it the following string literal:
@@ -19,6 +24,8 @@ let name = "Taimoor"
 
 let favouriteQuote = "My favorite quote is Never give up"
 
+
+
 /*:
  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
  */
@@ -30,6 +37,8 @@ if emptyString == "" {
 else {
     print("It's not as empty as I thought")
 }
+
+
 
 
 //: page 1 of 5  |  [Next: Exercise - Concatenation and Interpolation](@next)
