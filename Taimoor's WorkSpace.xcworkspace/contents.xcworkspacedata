@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Hello">
+   </FileRef>
+   <FileRef
+      location = "group:CommonInputControls">
+   </FileRef>
+   <FileRef
       location = "group:AnimalSounds">
    </FileRef>
    <FileRef
