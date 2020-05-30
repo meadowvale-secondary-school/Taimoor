@@ -11,9 +11,6 @@
       location = "group:ElementQuiz">
    </FileRef>
    <FileRef
-      location = "group:README.md">
-   </FileRef>
-   <FileRef
       location = "group:simpleCenter">
    </FileRef>
    <FileRef
